@@ -1,5 +1,5 @@
 {
-  "name": "change-manifest-sb",
+  "name": "custom-file-sb-plugin",
   "version": "1.0.7",
   "description": "Cordova plugin that exposes API to select images, videos, audio and files.",
   "types": "",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Shikhab07/custom-file-sb-plugin.git"
   },
   "bugs": {
     "url": ""

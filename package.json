@@ -1,10 +1,10 @@
 {
   "name": "custom-file-sb-plugin",
-  "version": "1.0.7",
+  "version": "1.0.0",
   "description": "Cordova plugin that exposes API to select images, videos, audio and files.",
   "types": "",
   "cordova": {
-    "id": "change-manifest-sb",
+    "id": "custom-file-sb-plugin",
     "platforms": [
       "android",
       "ios"

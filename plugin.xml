@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns:android="http://schemas.android.com/apk/res/android" id="change-manifest-sb" version="1">
+
+  <engines>
+    <engine name="cordova-android" version=">=8.1.0" />
+  </engines>
+
+  <name>change-manifest-sb</name>
+
+  <description>This plugin is used to manipulate the AndroidManifest.xml</description>
+  <author>Rob Mooijman</author>
+  <keywords>AndroidManifest</keywords>
+
+  <license>MIT</license>
+
+  <!-- android -->
+  <platform name="android">
+    <edit-config file="AndroidManifest.xml"
+                 target="/manifest/application"
+                 mode="merge">
+        <application android:requestLegacyExternalStorage="false"/>
+    </edit-config>
+  </platform>
+</plugin>

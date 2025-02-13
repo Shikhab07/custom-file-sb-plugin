@@ -1,0 +1,25 @@
+{
+  "name": "change-manifest-sb",
+  "version": "1.0.7",
+  "description": "Cordova plugin that exposes API to select images, videos, audio and files.",
+  "types": "",
+  "cordova": {
+    "id": "change-manifest-sb",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "scripts": {},
+  "author": "Apache Software Foundation",
+  "license": "Apache-2.0",
+  "devDependencies": {}
+}

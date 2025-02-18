@@ -1,7 +1,7 @@
 function Hello() {
 }
 
-Hello.prototype.greet: function (name, successCallback, errorCallback) {
+Hello.prototype.greet= function (name, successCallback, errorCallback) {
         cordova.exec(successCallback, errorCallback, "Hello", "greet", [name]);
 }
 Hello.install = function () {

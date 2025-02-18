@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns:android="http://schemas.android.com/apk/res/android" id="com.customfileSbplugin" version="1">
-
+  <name>com.customfileSbplugin</name>
   <engines>
     <engine name="cordova-android" version=">=8.1.0" />
   </engines>
 
-  <name>com.customfileSbplugin</name>
+   <asset src="www/hello.js" target="js/hello.js"/>
+
+  <js-module src="www/hello.js" name="hello">
+    <clobbers target="hello" />
+  </js-module>
+
 
   <description>This plugin is used to manipulate the AndroidManifest.xml</description>
   <author>Shikha</author>
@@ -14,11 +19,15 @@
   <license>MIT</license>
 
   <!-- android -->
-  <platform name="android">
-    <edit-config file="AndroidManifest.xml"
-                 target="/manifest/application"
-                 mode="merge">
-        <application android:requestLegacyExternalStorage="false"/>
-    </edit-config>
+  
+
+   <platform name="android">
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="Hello">
+        <param name="android-package" value="com.customfileSbplugin.Hello"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/Hello.java" target-dir="src/com/customfileSbplugin/plugin/"/>
   </platform>
 </plugin>

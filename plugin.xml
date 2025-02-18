@@ -12,7 +12,7 @@
     <engine name="cordova" version=">=3.0.0"/>
   </engines>
    
-  <js-module src="www/hello.js" name="hello">
+  <js-module src="www/hello.js" name="Hello">
     <clobbers target="window.plugins.hello" />
   </js-module>
   

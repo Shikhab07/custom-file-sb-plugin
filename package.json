@@ -4,7 +4,7 @@
   "description": "Cordova plugin that exposes API to select images, videos, audio and files.",
   "types": "",
   "cordova": {
-    "id": "com.customfileSbplugin",
+    "id": "com.customfileSbplugin.hello",
     "platforms": [
       "android"
     ]

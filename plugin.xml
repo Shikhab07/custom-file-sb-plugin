@@ -11,8 +11,7 @@
    <engines>
     <engine name="cordova" version=">=3.0.0"/>
   </engines>
-   <asset src="www/hello.js" target="js/hello.js"/>
-
+   
   <js-module src="www/hello.js" name="hello">
     <clobbers target="window.plugins.hello" />
   </js-module>

@@ -27,6 +27,7 @@
         <param name="android-package" value="com.customfileSbplugin.Hello"/>
       </feature>
     </config-file>
+    <source-file src="src/android/Hello.java" target-dir="src/com/customfileSbplugin"/>
      <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -41,7 +42,7 @@
                 </intent>
             </queries>
         </edit-config>
-    <source-file src="src/android/Hello.java" target-dir="src/com/customfileSbplugin/plugins"/>
+   
   </platform>
 
 </plugin>

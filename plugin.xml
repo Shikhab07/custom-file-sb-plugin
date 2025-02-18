@@ -15,7 +15,7 @@
     </engines>
    
   <js-module src="www/hello.js" name="Hello">
-    <clobbers target="window.plugins.hello" />
+    <clobbers target="plugins.hello" />
   </js-module>
   
   <!-- android -->

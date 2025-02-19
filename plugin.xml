@@ -31,18 +31,7 @@
      <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    </config-file>
-    <edit-config target="AndroidManifest.xml" parent="/*">
-            <queries>
-                <intent>
-                    <action android:name="android.media.action.IMAGE_CAPTURE" />
-                </intent>
-                <intent>
-                    <action android:name="android.intent.action.GET_CONTENT" />
-                </intent>
-            </queries>
-        </edit-config>
-   
+    </config-file>  
   </platform>
 
 </plugin>

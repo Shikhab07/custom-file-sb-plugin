@@ -32,10 +32,6 @@
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     </config-file>  
-    <edit-config target="AndroidManifest.xml" parent="/*" mode="merge">
-         <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" tools:node="remove"/>
-         <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" tools:node="remove"/>
-    </edit-config>
-  </platform>
+   </platform>
 
 </plugin>
